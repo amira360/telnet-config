@@ -2,14 +2,19 @@
 <html>
      <head>
        <meta charset="utf-8"/>
+	   <link rel="stylesheet" href="style.css" />
+        <title>renommer le routeur</title>
      </head>
-     <body>
-       <form action="router" method="POST">
-       Nouveau nom pour le routeur : <input type="text" name="nom" size="10"/>
-        <br>
+     <body class="signature" >
+	 
+       <form id="monForm" action="router" method="POST">
+	   <br><h2>Saisir le nom du routeur </h2>
+	   <br><br><br>
+       Nouveau nom : <input type="text" name="nom" size="10"/>
+        <br><br><br>
         <input type="submit" value="valider"/>
        </form>
-     
-     
+
+
      </body>
 </html>
