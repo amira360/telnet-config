@@ -1,1 +1,21 @@
 
+.signature
+{
+    text-align: center;
+	
+}
+#monForm {
+   position:absolute;
+   top:50%;
+   left:50%;
+   width:500px; /* A toi de donner la bonne largeur */
+   height:300px; /* A toi de donner la bonne hauteur */
+   margin-left:-280px; /* -largeur/2 */
+   margin-top:-180px; /* -hauteur/2 */
+   background:#EDEFF5;
+}
+label {
+	display: block;
+	width: 200px;
+	float: left;
+}
